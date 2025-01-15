@@ -4,12 +4,6 @@
   </div>
 </template>
 <script setup>
-<<<<<<< HEAD
-import useResource from '../composables/useResource.js'
-import PostCard from "../components/PostCard.vue";
-const {items: posts, fetchAll} = useResource('posts')
-fetchAll()
-=======
 import PostCard from "../components/PostCard.vue";
 const posts = [
   {
@@ -32,5 +26,4 @@ const posts = [
     body: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
   },
 ];
->>>>>>> 91cf2b2 (boilerplate code for 2nd chapter example blog)
 </script>
